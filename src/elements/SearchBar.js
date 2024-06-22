@@ -49,7 +49,7 @@ export default function SearchBar() {
         sx={{ display: "flex", justifyContent: "center", marginTop: 2 }}
       >
         <TextField
-          label="Search Recipe"
+          label="Search "
           variant="outlined"
           value={searchRecipe}
           onChange={updateSearchFunction}
@@ -94,7 +94,7 @@ export default function SearchBar() {
           ))
         ) : (
           <Typography variant="h6" component="div">
-            No recipes found. Please try a different search query.
+            Search for recipe!
           </Typography>
         )}
       </Box>
